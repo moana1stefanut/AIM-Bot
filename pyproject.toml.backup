@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "repl_python3_DarkturquoiseUpbeatCustomization"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+discord = "^1.7.3"
+python-dotenv = "^0.19.2"
+presence = "^20.10.0"
+Flask = "^2.0.2"
+bs4 = "^0.0.1"
+youtube_dl = "^2021.12.17"
+psutil = "^5.9.0"
+app = "^0.0.1"
+config = "^0.5.1"
+colorama = "^0.4.6"
+moon-tools = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
